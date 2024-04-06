@@ -1,1 +1,1 @@
-web: gunicorn Babs.wsgi 
+web: gunicorn Babs.wsgi --log-file -
